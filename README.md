@@ -25,5 +25,9 @@ Necessario configurar subdomio em etc/hosts
 
 127.0.0.1 api.teste-two.test
 
+realizar testes
+
+bundle exec spring rspec
+
 
 PS: melhorar readme (padrão code)
