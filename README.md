@@ -3,22 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+info version
+RUBY_VERSION="2.4.0"
+RAILS_VERSION="5.0.2"
+NODE_VERSION="6"
 
-* Ruby version
+instalar dependencias
+bundle install
 
-* System dependencies
+configurar db
+rake db:create db:migrate
 
-* Configuration
+Necessario configurar subdomio em etc/hosts
 
-* Database creation
+#setup subdomain for rails applications
+127.0.0.1 api.teste-two.test
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+PS: melhorar readme (padrão code)
